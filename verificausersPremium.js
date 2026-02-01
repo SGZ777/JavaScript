@@ -5,7 +5,7 @@ const users = [
   { name: "Diego", isPremium: false },
   { name: "Eva", isPremium: true }
 ]
-usersPremium = []
+let usersPremium = []
 
 for (let i = 0; i < users.length; i++) {
   if (users[i].isPremium === true){
